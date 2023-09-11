@@ -1,0 +1,92 @@
+CRITICAL - 2022-07-09 00:31:55 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\webci_kulinernew\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Komentar.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('images/', '1657344715_83f5...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Komentar->update()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-09 04:10:33 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\detail.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 248, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(16): view('detail', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('7')
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 05:46:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-09 05:46:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-09 05:46:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-09 06:56:10 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\webci_kulinernew\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-09 08:02:17 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(35): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->Cari()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-09 08:03:21 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(35): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->Cari()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-09 08:03:40 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(35): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->Cari()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-09 08:03:57 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\webci_kulinernew\system\Model.php on line 728
+#0 C:\xampp\htdocs\webci_kulinernew\system\Model.php(728): CodeIgniter\Database\BaseBuilder->like('nama_kuliner', NULL)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(29): CodeIgniter\Model->__call('like', Array)
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->Cari()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-09 08:08:56 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(34): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->Cari()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-09 08:09:00 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(34): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->Cari()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

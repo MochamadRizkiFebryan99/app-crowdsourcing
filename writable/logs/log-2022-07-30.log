@@ -1,0 +1,205 @@
+CRITICAL - 2022-07-30 01:38:06 --> Call to undefined method CodeIgniter\Router\RouteCollection::gety()
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(706): require()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-30 02:10:54 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('vRekomendasi', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Rekomendasi.php(39): view('vRekomendasi', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-30 02:40:10 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:40:10 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:43:32 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:43:32 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:43:51 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:43:51 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:44:48 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:44:48 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:47:20 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:47:20 --> Column 'id_pengguna' cannot be null
+CRITICAL - 2022-07-30 02:47:58 --> Call to a member function getVar() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Komentar->saveKomentar()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-30 02:48:08 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:48:08 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:50:20 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:50:20 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-07-30 02:51:30 --> Column 'id_pengguna' cannot be null
+CRITICAL - 2022-07-30 03:06:08 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(32): view('detail', Array)
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-30 03:06:27 --> Class 'Kuliner_model' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(32): view('detail', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-30 03:09:35 --> Class 'Kuliner_model' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(34): view('detail', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-30 03:09:37 --> Class 'Kuliner_model' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(34): view('detail', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-30 03:16:13 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\webci_kulinernew\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/detail/index/2...')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/detail/index/2...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-30 03:16:34 --> Class 'App\Controllers\Rating_model' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-30 03:16:47 --> Unknown column 'id_pelanggan' in 'where clause'
+CRITICAL - 2022-07-30 03:16:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\webci_kulinernew\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(35): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-30 03:18:22 --> Unknown column 'id_pelanggan' in 'where clause'
+CRITICAL - 2022-07-30 03:18:23 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\webci_kulinernew\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(35): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-30 03:18:33 --> Unknown column 'id_pelanggan' in 'where clause'
+CRITICAL - 2022-07-30 03:18:33 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\webci_kulinernew\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(35): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-30 03:18:47 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:18:47 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:18:47 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:18:47 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:18:47 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:19:39 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:19:39 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:19:39 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:19:39 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:19:39 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:02 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:02 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:02 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:02 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:02 --> Unknown column 'id_pelanggan' in 'where clause'
+CRITICAL - 2022-07-30 03:20:02 --> Use of undefined constant mylist3 - assumed 'mylist3' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\detail.php(381): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 381, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(40): view('detail', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 03:20:13 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:13 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:13 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:13 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:20:13 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:07 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:07 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:07 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:07 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:07 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:38 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:38 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:38 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:38 --> Unknown column 'id_pelanggan' in 'where clause'
+ERROR - 2022-07-30 03:22:38 --> Unknown column 'id_pelanggan' in 'where clause'
+CRITICAL - 2022-07-30 03:29:26 --> var_dump() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'var_dump() expe...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(36): var_dump()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-30 03:31:23 --> Illegal string offset 'id_komentar'
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\detail.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 383, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(39): view('detail', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('22')
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-30 04:51:56 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(34): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->cari()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-30 05:00:21 --> syntax error, unexpected '$model' (T_VARIABLE)
+#0 C:\xampp\htdocs\webci_kulinernew\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\webci_kulinernew\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-30 05:00:43 --> Unknown column 'title' in 'where clause'
+CRITICAL - 2022-07-30 05:00:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\webci_kulinernew\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->cari()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,67 @@
+CRITICAL - 2022-07-05 02:08:34 --> finfo_file(C:\xampp\tmp\php1507.tmp): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\Files\File.php(109): finfo_file(Resource id #116, 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 C:\xampp\htdocs\webci_kulinernew\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 C:\xampp\htdocs\webci_kulinernew\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(128): CodeIgniter\Files\File->getRandomName()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->update()
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#8 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 03:32:45 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\webci_kulinernew\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(122): CodeIgniter\HTTP\Files\UploadedFile->move('images/', '1657009965_33a4...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->update()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-05 03:33:34 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\webci_kulinernew\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Kuliner.php(122): CodeIgniter\HTTP\Files\UploadedFile->move('images/', '1657010014_d3a9...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Kuliner->update()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-05 07:23:14 --> syntax error, unexpected 'alt' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('header.php', Array, true)
+#2 C:\xampp\htdocs\webci_kulinernew\app\Views\detail.php(5): view('header.php')
+#3 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#6 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(16): view('detail', Array)
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('7')
+#8 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#9 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 07:23:17 --> syntax error, unexpected 'alt' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('header.php', Array, true)
+#2 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(5): view('header.php')
+#3 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#6 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#8 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#9 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 07:23:19 --> syntax error, unexpected 'alt' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('header.php', Array, true)
+#2 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(5): view('header.php')
+#3 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#6 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#8 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#9 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

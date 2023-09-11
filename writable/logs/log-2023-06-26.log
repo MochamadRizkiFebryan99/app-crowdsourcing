@@ -1,0 +1,12 @@
+CRITICAL - 2023-06-26 13:48:02 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-26 13:52:46 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

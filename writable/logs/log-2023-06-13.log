@@ -1,0 +1,23 @@
+CRITICAL - 2023-06-13 00:25:27 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Komentar->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-13 12:39:57 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Komentar->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-13 14:13:44 --> Use of undefined constant t - assumed 't' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\detail.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 234, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Detail.php(41): view('detail', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Detail->index('24')
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

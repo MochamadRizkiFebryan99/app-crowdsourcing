@@ -1,0 +1,48 @@
+CRITICAL - 2022-04-19 00:01:06 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:01:15 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:02:30 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Komentar->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:23:48 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:23:51 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:24:58 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:25:58 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 00:31:06 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#1 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#2 D:\xampp\htdocs\bimbel\webci_kuliner\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bimbel\webci_kuliner\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

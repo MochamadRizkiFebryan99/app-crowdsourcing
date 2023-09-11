@@ -1,0 +1,60 @@
+CRITICAL - 2022-04-12 10:41:03 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:48:14 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:48:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:50:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:50:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:50:53 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:51:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 10:52:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 15:54:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-12 17:44:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp\\htdocs...')
+#4 {main}

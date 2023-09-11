@@ -1,0 +1,6 @@
+CRITICAL - 2022-05-15 16:39:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp7\htdocs\bimbel\CodeIgniter\webci_kuliner\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp7\htdocs\bimbel\CodeIgniter\webci_kuliner\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp7\htdocs\bimbel\CodeIgniter\webci_kuliner\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp7\htdocs\bimbel\CodeIgniter\webci_kuliner\index.php(35): require('D:\\xampp7\\htdoc...')
+#4 {main}

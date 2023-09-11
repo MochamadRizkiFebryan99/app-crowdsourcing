@@ -1,0 +1,20 @@
+CRITICAL - 2022-08-31 22:20:29 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-31 22:21:34 --> Column 'id_pengguna' cannot be null
+ERROR - 2022-08-31 22:21:34 --> Column 'id_pengguna' cannot be null
+CRITICAL - 2022-08-31 22:22:19 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Komentar->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-31 22:22:22 --> Class 'App\Controllers\PageNotFoundException' not found
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,151 @@
+ERROR - 2022-08-16 03:39:16 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+CRITICAL - 2022-08-16 03:55:19 --> Invalid file: myregister.php
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('myregister.php')
+#1 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('myregister', Array, true)
+#2 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Pengguna.php(118): view('myregister')
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Pengguna->daftar()
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-16 04:08:02 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\webci_kulinernew\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\webci_kulinernew\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:09:22 --> Call to a member function set_rules() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Pengguna->daftar()
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 04:16:16 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Register.php(14): view('register', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:21:26 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Register.php(14): view('register', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:21:43 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Register.php(14): view('register', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:21:45 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Register.php(14): view('register', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:21:54 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Register.php(14): view('register', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:29:23 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register2', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Pengguna.php(123): view('register2')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Pengguna->daftar()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:29:45 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register2', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Pengguna.php(123): view('register2')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Pengguna->daftar()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:29:55 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register2', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Pengguna.php(102): view('register2')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Pengguna->register2()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 04:36:29 --> syntax error, unexpected 'myloginpengguna' (T_STRING)
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-08-16 04:36:50 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-08-16 04:49:50 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('register2', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Pengguna.php(102): view('register2')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Pengguna->register2()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-16 04:55:30 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+ERROR - 2022-08-16 04:55:39 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+ERROR - 2022-08-16 05:00:58 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+ERROR - 2022-08-16 05:25:57 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+ERROR - 2022-08-16 05:27:54 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+ERROR - 2022-08-16 05:30:26 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 05:31:07 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 05:33:45 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 05:35:51 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 06:03:04 --> Duplicate entry 'mochamadrizkifebryan@gmail.com-rizki' for key 'email'
+ERROR - 2022-08-16 06:07:01 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 06:09:54 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 06:14:39 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 06:17:26 --> Duplicate entry 'mochamadrizkifebryan@gmail.com' for key 'email_2'
+ERROR - 2022-08-16 06:32:16 --> Duplicate entry 'rizki' for key 'username'
+CRITICAL - 2022-08-16 07:47:39 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\webci_kulinernew\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\webci_kulinernew\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

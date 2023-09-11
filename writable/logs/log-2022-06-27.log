@@ -1,0 +1,144 @@
+CRITICAL - 2022-06-27 05:56:40 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webci_kulinernew\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-27 06:01:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webci_kulinernew\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-27 06:09:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webci_kulinernew\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-27 06:09:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webci_kulinernew\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webci_kulinernew\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-06-27 04:49:02 --> Unknown column 'ASC' in 'order clause'
+CRITICAL - 2022-06-27 04:49:02 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\webci_kulinernew\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-27 04:49:28 --> Unknown column 'ASC' in 'order clause'
+CRITICAL - 2022-06-27 04:49:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\webci_kulinernew\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#3 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-27 05:20:48 --> Column 'tanggal' cannot be null
+ERROR - 2022-06-27 05:21:21 --> Column 'tanggal' cannot be null
+CRITICAL - 2022-06-27 06:02:13 --> Call to undefined function getHitung()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 06:06:01 --> Division by zero
+#0 C:\xampp\htdocs\webci_kulinernew\app\Helpers\my_helper.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(486): getHitung('8')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#5 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 06:07:28 --> Division by zero
+#0 C:\xampp\htdocs\webci_kulinernew\app\Helpers\my_helper.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(486): getHitung('2')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#5 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 06:12:16 --> Division by zero
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 491, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 06:12:47 --> Division by zero
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 491, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 06:13:55 --> Division by zero
+#0 C:\xampp\htdocs\webci_kulinernew\app\Views\frontend.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 491, Array)
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('frontend', Array, true)
+#4 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Frontend.php(22): view('frontend', Array)
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Frontend->index()
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-27 07:29:51 --> Column 'tanggal' cannot be null
+ERROR - 2022-06-27 08:09:39 --> Column 'tanggal' cannot be null
+ERROR - 2022-06-27 08:09:58 --> Column 'tanggal' cannot be null
+CRITICAL - 2022-06-27 08:13:00 --> Call to undefined function getPengguna()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('vRating', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Rating.php(23): view('vRating', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 08:14:04 --> Call to undefined function getPengguna()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('vRating', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Rating.php(23): view('vRating', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 08:16:26 --> Call to undefined function getPengguna()
+#0 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\webci_kulinernew\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\webci_kulinernew\system\Common.php(1089): CodeIgniter\View\View->render('vRating', Array, true)
+#3 C:\xampp\htdocs\webci_kulinernew\app\Controllers\Rating.php(23): view('vRating', Array)
+#4 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#5 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#6 C:\xampp\htdocs\webci_kulinernew\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webci_kulinernew\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

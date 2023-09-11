@@ -1,0 +1,507 @@
+CRITICAL - 2022-04-14 05:42:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(35): require('D:\\xampp81\\htdo...')
+#4 {main}
+CRITICAL - 2022-04-14 02:08:41 --> Class "App\Models\Pengguna_model" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 02:10:55 --> Class "App\Models\Pengguna_model" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-14 02:14:22 --> Table 'db_latcruds.tb_pengguna' doesn't exist
+CRITICAL - 2022-04-14 02:14:22 --> Call to a member function getResult() on bool
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Pengguna.php(15): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-14 02:14:31 --> Table 'db_latcruds.tb_pengguna' doesn't exist
+CRITICAL - 2022-04-14 02:14:31 --> Call to a member function getResult() on bool
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Pengguna.php(15): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 02:16:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 02:23:01 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 02:23:02 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 02:25:54 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 03:33:37 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 03:34:46 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 04:08:00 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 04:08:05 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 04:42:31 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 04:44:20 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 04:49:30 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Pengguna->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:19:10 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:19:17 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:29:49 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:30:06 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Rekomendasi->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekomendasi))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:38:06 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Komentar->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:47:29 --> Call to undefined function WKT()
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKomentar', Array, true)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Komentar.php(20): view('vKomentar', Array)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Komentar->index()
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 09:47:50 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 09:48:24 --> Undefined array key "gambar"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vRating.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 101)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vRating', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Rating.php(20): view('vRating', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Rating->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:26:54 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:29:48 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:31:11 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:31:43 --> Undefined array key "nama_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 193)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:34:37 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:36:40 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:36:41 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:39:07 --> Class "App\Controllers\PageNotFoundException" not found
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 10:40:21 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:41:25 --> Undefined array key "telepon"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 193)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:55:00 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 192)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:57:10 --> Unclosed '{' on line 33
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:58:08 --> Unclosed '{' on line 33
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:58:09 --> Unclosed '{' on line 33
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:58:21 --> Unclosed '{' on line 33
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:58:22 --> Unclosed '{' on line 33
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 11:57:11 --> Undefined variable $gambar1
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp81\\htdo...', 206)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:57:47 --> Undefined array key "id_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 193)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:58:30 --> Undefined array key "nama_kuliner"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 194)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:59:08 --> Undefined array key "deskripsi"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 195)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:00:04 --> Undefined array key "deskripsi"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 195)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:00:05 --> Undefined array key "deskripsi"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 195)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:00:14 --> Undefined array key "deskripsi"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 195)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:00:15 --> Undefined array key "deskripsi"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 195)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:00:57 --> Undefined array key "email"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 196)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:01:50 --> Undefined array key "ragam_menu"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 198)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:03:34 --> Undefined variable $gambar1
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp81\\htdo...', 206)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:04:44 --> Undefined variable $gambar1
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp81\\htdo...', 206)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:05:06 --> Undefined array key "gambar1"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 199)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:05:27 --> Undefined array key "gambar1"
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp81\\htdo...', 199)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:05:43 --> Undefined variable $gambar1
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp81\\htdo...', 206)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:05:44 --> Undefined variable $gambar1
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp81\\htdo...', 206)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:08:26 --> Undefined variable $deskripsi
+#0 D:\xampp81\htdocs\CI\apps_crudsci4\app\Views\vKuliner.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp81\\htdo...', 208)
+#1 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(210): include('D:\\xampp81\\htdo...')
+#2 D:\xampp81\htdocs\CI\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp81\htdocs\CI\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vKuliner', Array, true)
+#4 D:\xampp81\htdocs\CI\apps_crudsci4\app\Controllers\Kuliner.php(20): view('vKuliner', Array)
+#5 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Kuliner->index()
+#6 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuliner))
+#7 D:\xampp81\htdocs\CI\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp81\htdocs\CI\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

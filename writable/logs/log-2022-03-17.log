@@ -1,0 +1,766 @@
+CRITICAL - 2022-03-17 02:46:38 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:46:43 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:48:08 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:48:09 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:48:09 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:48:10 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:50:13 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:50:15 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:50:15 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:50:28 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:50:39 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 03:04:19 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 1)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Home.php(8): view('index')
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 04:19:09 --> Class "CI_Controller" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:19:56 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:19:57 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:19:58 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:19:58 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:04 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 12)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 04:20:05 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 12)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 04:20:05 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 12)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 04:20:05 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 12)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 04:20:52 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:53 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:53 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:53 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:54 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:54 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:20:58 --> Cannot call constructor
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:22:58 --> Class "App\Controllers\ShopModel" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:23:14 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 11)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 04:24:00 --> Class "App\Controllers\admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:24:07 --> Class "App\Controllers\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(802): App\Controllers\Admin->__construct()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:24:24 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp8012\\ht...', 21)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 04:42:14 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:43:08 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:43:10 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:43:11 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:43:25 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:44:08 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:44:46 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 04:44:54 --> Cannot redeclare App\Controllers\Admin::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 04:44:54 --> Cannot redeclare App\Controllers\Admin::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 04:45:38 --> Cannot redeclare App\Controllers\Admin::indexs()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 04:45:39 --> Cannot redeclare App\Controllers\Admin::indexs()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 04:45:51 --> Cannot redeclare App\Controllers\Admin::indexs()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 04:47:06 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:07 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:07 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:07 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:07 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:08 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:09 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 04:47:09 --> Class "BaseController" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 09:27:50 --> Class "CI_Controller" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 09:30:07 --> Class "App\Models\Admin_model" not found
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 09:31:57 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 26)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 09:34:13 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 26)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 09:34:21 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 26)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 09:34:22 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 26)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 09:35:14 --> syntax error, unexpected token "endforeach"
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#2 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-17 09:36:30 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 30)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 09:36:31 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 30)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 09:36:31 --> Attempt to read property "id_admin" on array
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp8012\\ht...', 30)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:06:05 --> syntax error, unexpected identifier "images", expecting "," or ";"
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#2 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-17 10:06:06 --> syntax error, unexpected identifier "images", expecting "," or ";"
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#2 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(12): view('vAdmin', Array)
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-17 10:46:53 --> Undefined variable $pro
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8012\\ht...', 12)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit('2')
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:48:06 --> Undefined variable $pro
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8012\\ht...', 12)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:48:56 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:49:04 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:49:12 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:50:16 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:50:18 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:50:18 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:50:24 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:50:31 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:51:02 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:51:03 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:51:03 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:51:03 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:51:55 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:52:38 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 10:56:06 --> Trying to access array offset on value of type null
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Views\vAdmin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8012\\ht...', 48)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(210): include('C:\\xampp8012\\ht...')
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\Common.php(1089): CodeIgniter\View\View->render('vAdmin', Array, true)
+#4 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(41): view('vAdmin', Array)
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->edit()
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-17 11:04:27 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:05:24 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:06:07 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:06:15 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:06:47 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:07:11 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:07:19 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:12:33 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:12:39 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:13:22 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:13:41 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:14:13 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:15:16 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:15:22 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:16:24 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:16:31 --> Unknown column 'tb_admin.id' in 'where clause'
+CRITICAL - 2022-03-17 11:16:43 --> Allowed fields must be specified for model: App\Models\Admin_model
+#0 C:\xampp8012\htdocs\apps_crudsci4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Admi...')
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(58): CodeIgniter\Model->update('1', Array)
+#4 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->update()
+#5 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-17 11:17:15 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:17:19 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:20:48 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:21:55 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 11:23:08 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:01:37 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:01:44 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:02:34 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:03:49 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:03:58 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:05:06 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:05:20 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:12:00 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:12:06 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:12:24 --> Unknown column 'tb_admin.id' in 'where clause'
+ERROR - 2022-03-17 12:12:56 --> Unknown column 'tb_admin.id' in 'where clause'
+CRITICAL - 2022-03-17 12:15:52 --> Undefined variable $id
+#0 C:\xampp8012\htdocs\apps_crudsci4\app\Controllers\Admin.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8012\\ht...', 66)
+#1 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(825): App\Controllers\Admin->update()
+#2 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp8012\htdocs\apps_crudsci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8012\htdocs\apps_crudsci4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-17 12:16:12 --> Unknown column 'tb_admin.id' in 'where clause'
